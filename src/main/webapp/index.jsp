@@ -2,13 +2,31 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+
 <body>
-<h2>Hello World!</h2>
-<p> 내용추가! 배고파요
- 	점심 먹고싶어요</p>
- <p>뭘까 배치 프로그램 추가! </p>
- <p>jenkins 에서도 추가가 되나요?? 호호홓호</p>
- <p>톰캣2에서 하기 바사사삭</p>
- 
+	<h2>Servlet</h2>
+
+	<h1 style="text-align: center">환영합니다</h1>
+	<a href="Calc">Calculator</a>
+	<form action="Calc">
+		<select name ="key">
+			<option value="add">더하기(+)</option>
+			<option value="subtract">빼기(-)</option>
+			<option value="multiply">곱하기(*)</option>
+			<option value="divide">나누기(/)</option>
+			
+		</select>
+	
+		<input type="number" name = "a" placeholder="첫번째 숫자를 입력하세요">
+		<input type="number" name = "b" placeholder="두번째 숫자를 입력하세요">
+		<input type="submit" value="계산!">
+		
+	</form>
+
+
 </body>
 </html>
