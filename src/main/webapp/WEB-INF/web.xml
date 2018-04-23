@@ -10,8 +10,19 @@
   	<description></description>
   	<servlet-class>kr.co.gdu.Calc</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>CafeS</servlet-name>
+  	<display-name>CafeS</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.CafeS</servlet-class>
+  </servlet>
+  
   <servlet-mapping>
   	<servlet-name>Calc</servlet-name>
   	<url-pattern>/Calc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CafeS</servlet-name>
+  	<url-pattern>/CafeS</url-pattern>
   </servlet-mapping>
 </web-app>
